@@ -1,7 +1,7 @@
 <template>
   <div class="login-input">
     <div class="content-right">
-      <div class="input-head">Blog登录</div>
+      <div class="input-head">登录</div>
       <el-input type="tex t" placeholder="输入账号" v-model="account" maxlength="30"></el-input>
       <el-input type="password" placeholder="输入密码" v-model="password"  style="margin-top: 10px;"></el-input>
       <el-switch v-model="isRemember"  active-text="记住账号"  active-color="#13ce66" inactive-color="#ff4949" style="margin-top: 10px;width: 100%;"></el-switch>
